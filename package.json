@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "minimal-blog",
+  "name": "aceto.dev",
   "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
   "version": "1.0.8",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Lucas Schumacher <lucas-schumacher97@web.de>",
   "license": "MIT",
   "starter-name": "gatsby-starter-minimal-blog",
   "scripts": {
@@ -17,6 +17,9 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^2.2.2",
+    "@types/node": "^13.9.0",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
     "gatsby": "^2.13.3",
     "gatsby-plugin-google-analytics": "^2.1.4",
     "gatsby-plugin-manifest": "^2.2.3",
@@ -24,7 +27,8 @@
     "gatsby-plugin-offline": "^2.2.4",
     "gatsby-plugin-sitemap": "^2.2.19",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",

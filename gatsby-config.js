@@ -4,7 +4,11 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: 'aceto',
+    siteTitleAlt: `aceto.dev`,
+    author: 'Lucas Schumacher',
+    siteUrl: 'https://aceto.dev',
+    siteLanguage: 'en'
   },
   plugins: [
     {
@@ -16,43 +20,45 @@ module.exports = {
             slug: `/blog`,
           },
           {
+            title: `Projects`,
+            slug: `/projects`,
+          },
+          {
             title: `About`,
             slug: `/about`,
+          },
+          {
+            title: `Uses`,
+            slug: `/uses`,
           },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/aceto_ls`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `GitHub`,
+            url: `https://github.com/Aceto1`,
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
+        name: `aceto.dev`,
         short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: ``,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
+            src: `/android-chrome-256x256.png`,
+            sizes: `256x256`,
             type: `image/png`,
           },
           {
@@ -63,8 +69,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
-    // `gatsby-plugin-webpack-bundle-analyser-v2`,
+    `gatsby-plugin-offline`
   ],
 }
