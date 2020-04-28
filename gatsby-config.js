@@ -50,7 +50,7 @@ module.exports = {
       options: {
         name: `aceto.dev`,
         short_name: `minimal-blog`,
-        description: ``,
+        description: `Fullstack Developer, IoT Enthusiast & Tinkerer`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
