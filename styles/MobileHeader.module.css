@@ -1,0 +1,24 @@
+.container {
+  top: 0;
+  height: 3em;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  background-color: inherit;
+}
+
+.container button {
+  background: transparent;
+  border: 0;
+  margin: 0 0.5em;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    display: none;
+  }
+}

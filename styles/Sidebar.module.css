@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 1em;
+  width: 100vw;
+  height: 100%;
+  top: 3em;
+  left: 100vw;
+  position: fixed;
+  transition: all 0.5s ease 0s;
+  z-index: 1;
+}
+
+.nav > * {
+  font-size: 2em;
+  margin: 0.3em;
+}
+
+.nav > *:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .nav {
+    display: none;
+  }
+}
