@@ -1,4 +1,4 @@
-import { FC, useCallback, useEffect } from 'react';
+import { FC, useCallback, useEffect, useState } from 'react';
 import styles from '../../styles/MobileHeader.module.css'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
@@ -12,6 +12,7 @@ export interface MobileHeaderProps {
 }
 
 const MobileHeader: FC<MobileHeaderProps> = (props) => {
+  const [title, setTitle] = useState('');
   const router = useRouter();
 
   const closeSidebar = useCallback(() => {
@@ -22,13 +23,12 @@ const MobileHeader: FC<MobileHeaderProps> = (props) => {
 
   useEffect(() => {
     router.events.on('routeChangeStart', closeSidebar);
+    setTitle(router.pathname.replaceAll("/", "").toUpperCase());
 
     return () => {
       router.events.off('routeChangeStart', closeSidebar)
     }
   }, [closeSidebar, router]);
-
-  const title = router.pathname.replaceAll("/", "").toUpperCase();
 
   return (
     <header className={styles.container}>
