@@ -65,6 +65,7 @@
 }
 
 .content {
+  padding: 0 3em;
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 1s;
@@ -102,5 +103,6 @@
   .content {
     width: 67vw;
     height: calc(100vh - 3em);
+    padding: 0 15%;
   }
 }
