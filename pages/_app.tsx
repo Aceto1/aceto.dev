@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Layout from '../components/Layout/Layout';
 import Head from 'next/head';
+import DarkModeContextProvider from '../context/DartkModeContextProvider';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -11,9 +12,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="description" content="my personal website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <DarkModeContextProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </DarkModeContextProvider>
     </>
   );
 }

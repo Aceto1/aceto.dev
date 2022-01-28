@@ -1,20 +1,21 @@
-import { FC } from "react";
+import { FC, useContext } from "react";
 import Link from "next/link";
+
+import DarkModeContext from "../../context/DarkModeContext";
 
 import styles from './Sidebar.module.css'
 
 export interface SidebarProps {
   isOpen: boolean;
-  // The background-color property can't be inherited here, since we need to calculate it with an alpha value in CSS
-  // That's why we need a prop for our mode here
-  darkMode: boolean;
 }
 
 const Navigation: FC<SidebarProps> = (props) => {
+  const { darkMode } = useContext(DarkModeContext);
+
   return (
     <div className={styles.nav} style={{
       left : props.isOpen ? "0": "100vw", 
-      backgroundColor: props.darkMode ? "rgba(46, 52, 64, 0.8)" : "rgba(236, 239, 244, 0.8)"
+      backgroundColor: darkMode ? "rgba(46, 52, 64, 0.8)" : "rgba(236, 239, 244, 0.8)"
       }}>
       <Link href="/">
         <a>Home</a>

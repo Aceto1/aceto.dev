@@ -1,15 +1,14 @@
-import { FC } from "react";
+import { FC, useContext } from "react";
 import Link from "next/link";
 import Image from 'next/image'
 
+import DarkModeContext from "../../context/DarkModeContext";
+
 import styles from './Header.module.css'
 
-export interface HeaderProps {
-  onColorModeButtonClick: () => void;
-  darkMode: boolean;
-}
+const Header: FC = () => {
+  const { darkMode, toggle } = useContext(DarkModeContext);
 
-const Header: FC<HeaderProps> = (props) => {
   return (
     <div className={styles.container}>
       <Link href="/">
@@ -28,8 +27,8 @@ const Header: FC<HeaderProps> = (props) => {
         <a>Uses</a>
       </Link>
 
-      <button onClick={props.onColorModeButtonClick}>
-        {props.darkMode ?
+      <button onClick={() => toggle()}>
+        {darkMode ?
           <Image layout='fixed' src="/sun.svg" alt='activate light mode' width={24} height={24} /> :
           <Image layout='fixed' src="/moon.svg" alt='activate dark mode' width={24} height={24} />
         }
