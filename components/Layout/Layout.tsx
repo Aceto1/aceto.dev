@@ -1,12 +1,14 @@
 import { FC, useEffect, useState } from "react";
 import Image from 'next/image'
+
 import Footer from "../Footer/Footer";
 import MobileHeader from "../Header/MobileHeader";
-
-import styles from '../../styles/Layout.module.css'
 import Sidebar from "../Sidebar/Sidebar";
-import { getIconName } from "../../lib/helper";
 import Header from "../Header/Header";
+
+import { getIconName } from "../../lib/helper";
+
+import styles from './Layout.module.css'
 
 const Layout: FC = (props) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

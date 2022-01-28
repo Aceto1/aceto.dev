@@ -1,7 +1,7 @@
 import { FC } from "react";
-
-import styles from '../../styles/Sidebar.module.css'
 import Link from "next/link";
+
+import styles from './Sidebar.module.css'
 
 export interface SidebarProps {
   isOpen: boolean;

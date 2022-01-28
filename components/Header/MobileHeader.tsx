@@ -1,9 +1,10 @@
 import { FC, useCallback, useEffect, useState } from 'react';
-import styles from '../../styles/MobileHeader.module.css'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
+
 import { getIconName } from '../../lib/helper';
 
+import styles from './MobileHeader.module.css'
 export interface MobileHeaderProps {
   onSidebarButtenClick: () => void;
   onColorModeButtonClick: () => void;
