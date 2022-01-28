@@ -13,7 +13,7 @@ const Layout: FC = (props) => {
   const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
-    setDarkMode(localStorage.getItem("enable-dark-mode") === "true");
+    setDarkMode((localStorage.getItem("enable-dark-mode") ?? "true") === "true");
   }, []);
 
   useEffect(() => {
