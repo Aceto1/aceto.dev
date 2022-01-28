@@ -1,6 +1,6 @@
-import { FC } from "react";
+import { NextPage } from "next";
 
-const Portfolio: FC = () => {
+const Portfolio: NextPage = () => {
   return (
     <div>
 

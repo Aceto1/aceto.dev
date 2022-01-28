@@ -1,6 +1,6 @@
-import { FC } from "react";
+import { NextPage } from "next";
 
-const Resume: FC = () => {
+const Resume: NextPage = () => {
   return (
     <div>
 
