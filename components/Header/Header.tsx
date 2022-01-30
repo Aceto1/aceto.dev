@@ -10,7 +10,7 @@ const Header: FC = () => {
   const { darkMode, toggle } = useContext(DarkModeContext);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{backgroundColor: darkMode ? "#4c566a" : "#d8dee9"}}>
       <Link href="/">
         <a>Home</a>
       </Link>
