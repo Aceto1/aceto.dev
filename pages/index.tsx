@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <p>In my day to day work I mostly use TypeScript + React for any frontend development (which I&apos;ve grown fond of recently) and .Net Core or Java for any backend related things. I have also worked with WPF in the past and did my fair share of database-level (SQL) development. You can learn more about my skills and background in my <Link href='/resume'><a>resume</a></Link>.</p>
     
-      <p>Since programming is also a big passion of mine, I have created a few small projects and tools. A few of them can be found in my <Link href='/portfolio'><a>portfolio</a></Link> or on my <Link href='https://demo.aceto.dev/'><a>demo page</a></Link>.</p>
+      <p>Since programming is also a big passion of mine, I&apos;m currently trying to build a small portfolio. Right now the implementations of some algorithms can be found on my <Link href='https://demo.aceto.dev/'><a>demo page</a></Link>.</p>
 
       <p>Besides coding I&apos;m also a huge keyboard nerd and try to keep a few cool plants alive in my appartment.</p>
 
