@@ -1,0 +1,23 @@
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.resumeContainer > div {
+  margin-left: 1em;
+}
+
+.container a {
+  color: #81a1c1;
+}
+
+@media screen and (min-width: 700px) {
+  .resumeContainer {
+    flex-direction: row;
+  }
+
+  .resumeContainer > div {
+    max-width: 50%;
+  }
+}

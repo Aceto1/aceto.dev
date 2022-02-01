@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  display: none;
+  position: absolute;
+  top: 0;
+  width: fit-content;
+  margin: auto;
+}
+
+.container a {
+  text-decoration: underline;
+  margin: 0 0.5em;
+  font-size: 1.3em;
+}
+
+.container button {
+  background-color: transparent;
+  border: 0;
+  right: 1em;
+  top: 1em;
+  position: fixed;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    display: flex;
+  }
+}
