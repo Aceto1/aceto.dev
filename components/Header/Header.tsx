@@ -17,8 +17,8 @@ const Header: FC = () => {
       <Link href="/resume">
         <a>Resume</a>
       </Link>
-      <Link href="https://demo.aceto.dev/">
-        <a>Demos</a>
+      <Link href="/projects">
+        <a>Projects</a>
       </Link>
       <Link href="/uses">
         <a>Uses</a>

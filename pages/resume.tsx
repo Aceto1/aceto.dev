@@ -8,10 +8,16 @@ import styles from '../styles/Resume.module.css';
 
 const workItems: ResumeDataItem[] = [
   {
+    company: 'GreenGate AG',
+    title: 'Student Developer',
+    startingDate: new Date(2022, 4),
+    active: true,
+  },
+  {
     company: 'Ibykus AG',
     title: 'Student Developer',
     startingDate: new Date(2020, 10),
-    active: true,
+    endingDate: new Date(2022, 3),
   },
   {
     company: 'Ibykus AG',
@@ -30,7 +36,7 @@ const workItems: ResumeDataItem[] = [
 const educationItems: ResumeDataItem[] = [
   {
     company: 'Friedrich-Schiller-University Jena',
-    title: 'B.Sc. Computer Science',
+    title: 'B.Sc. Computer Science (est. late 2023)',
     startingDate: new Date(2020, 10),
     active: true,
   },
@@ -47,7 +53,9 @@ const skills = [
   '.NET (Core) and WPF',
   'Java (EE)',
   'CI/CD',
-  'Automated Testing'
+  'Automated Testing',
+  'Docker',
+  'Linux and Windows operating systems'
 ]
 
 const mapToResumeItem = (resumeDataItem: ResumeDataItem) => {
