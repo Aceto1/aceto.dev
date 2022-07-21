@@ -9,11 +9,11 @@ const Home: NextPage = () => {
       <h2>About Me</h2>
       <p>Thanks for stopping by!</p>
 
-      <p>I&apos;m a 24 year old software developer living in Jena, Germany. I&apos;m currently studying computer science while working as a fullstack developer at a medium-sized company in Erfurt.</p>
+      <p>I&apos;m a 24 year old software developer living in Jena, Germany. I&apos;m currently studying computer science while working as a .NET developer at a small company near Cologne.</p>
 
-      <p>In my day to day work I mostly use TypeScript + React for any frontend development (which I&apos;ve grown fond of recently) and .Net Core or Java for any backend related things. I have also worked with WPF in the past and did my fair share of database-level (SQL) development. You can learn more about my skills and background in my <Link href='/resume'><a>resume</a></Link>.</p>
+      <p>In my day to day work I mostly use .NET and Blazor WASM (which I&apos;ve grown fond of recently). In my free time I also enjoy doing things with React and Next.js, like this website! I have also worked with WPF and Java in the past and did my fair share of database-level (SQL) development. You can learn more about my skills and background in my <Link href='/resume'><a>resume</a></Link>.</p>
     
-      <p>Since programming is also a big passion of mine, I&apos;m currently trying to build a small portfolio. Right now the implementations of some algorithms can be found on my <Link href='https://demo.aceto.dev/'><a>demo page</a></Link>.</p>
+      <p>Since programming is also a big passion of mine, I&apos;m currently trying to build a small portfolio. Head over to my <Link href='/projects'><a>projects page</a></Link> to take a look!</p>
 
       <p>Besides coding I&apos;m also a huge keyboard nerd and try to keep a few cool plants alive in my appartment.</p>
 

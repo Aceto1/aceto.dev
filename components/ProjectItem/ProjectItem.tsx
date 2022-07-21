@@ -16,7 +16,7 @@ const ProjectItem: FC<ProjectItemProps> = (props) => {
       <div className={styles.container}>
         <Image src={props.image} height={300} width={325} layout="fixed" alt="sshmngr cli interface" />
         <div className={styles.textContainer}>
-          <h2>{props.title}</h2>
+          <h3>{props.title}</h3>
           <p>{props.text}</p>
         </div>
       </div>

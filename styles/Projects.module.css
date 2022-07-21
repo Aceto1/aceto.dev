@@ -3,3 +3,7 @@
   flex-direction: column;
   width: 100%;
 }
+
+.container a {
+  color: #81a1c1;
+}
