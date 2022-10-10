@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <h2>About Me</h2>
       <p>Thanks for stopping by!</p>
 
-      <p>I&apos;m a 24 year old software developer living in Jena, Germany. I&apos;m currently studying computer science while working as a .NET developer at a small company near Cologne.</p>
+      <p>I&apos;m a 25 year old software developer living in Jena, Germany. I&apos;m currently studying computer science while working as a .NET developer at a small company near Cologne.</p>
 
       <p>In my day to day work I mostly use .NET and Blazor WASM (which I&apos;ve grown fond of recently). In my free time I also enjoy doing things with React and Next.js, like this website! I have also worked with WPF and Java in the past and did my fair share of database-level (SQL) development. You can learn more about my skills and background in my <Link href='/resume'><a>resume</a></Link>.</p>
     
