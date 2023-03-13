@@ -36,7 +36,7 @@ const workItems: ResumeDataItem[] = [
 const educationItems: ResumeDataItem[] = [
   {
     company: 'Friedrich-Schiller-University Jena',
-    title: 'B.Sc. Computer Science (est. late 2023)',
+    title: 'B.Sc. Computer Science (est. early 2024)',
     startingDate: new Date(2020, 10),
     active: true,
   },
@@ -50,7 +50,7 @@ const educationItems: ResumeDataItem[] = [
 const skills = [
   'React, Redux, Next.js',
   'TypeScript',
-  '.NET (Core) and WPF',
+  '.NET, Blazor WASM',
   'Java (EE)',
   'CI/CD',
   'Automated Testing',
