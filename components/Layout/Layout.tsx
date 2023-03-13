@@ -1,4 +1,4 @@
-import { FC, useContext, useEffect, useState } from "react";
+import { FC, PropsWithChildren, useContext, useEffect, useState } from "react";
 import Image from 'next/image'
 
 import Footer from "../Footer/Footer";
@@ -11,7 +11,7 @@ import { getIconName } from "../../lib/helper";
 
 import styles from './Layout.module.css'
 
-const Layout: FC = (props) => {
+const Layout: FC<PropsWithChildren> = (props) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { darkMode } = useContext(DarkModeContext);
 

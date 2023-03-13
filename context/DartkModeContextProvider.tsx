@@ -1,7 +1,7 @@
-import { FC, useEffect, useState } from "react";
+import { FC, PropsWithChildren, useEffect, useState } from "react";
 import DarkModeContext, { DarkModeContextValue } from "./DarkModeContext";
 
-const DarkModeContextProvider: FC = (props) => {
+const DarkModeContextProvider: FC<PropsWithChildren> = (props) => {
   const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
