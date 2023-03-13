@@ -73,7 +73,7 @@ const Resume: NextPage = () => {
     <div className={styles.container}>
       <h2>Resume</h2>
 
-      <p>This is just a short summary of where I&apos;ve worked and what I&apos;ve done. More can be found on my different social profiles linked above. If you have any questions or are interested in working with me, please <Link href='mailto:lucas@aceto.dev'><a>contact me</a></Link>! 💬</p>
+      <p>This is just a short summary of where I&apos;ve worked and what I&apos;ve done. More can be found on my different social profiles linked above. If you have any questions or are interested in working with me, please <Link href='mailto:lucas@aceto.dev'>contact me</Link>! 💬</p>
 
       <div className={styles.resumeContainer}>
         <div>

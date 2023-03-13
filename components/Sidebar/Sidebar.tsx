@@ -18,16 +18,16 @@ const Navigation: FC<SidebarProps> = (props) => {
       backgroundColor: darkMode ? "rgba(46, 52, 64, 0.8)" : "rgba(236, 239, 244, 0.8)"
       }}>
       <Link href="/">
-        <a>Home</a>
+        Home
       </Link>
       <Link href="/resume">
-        <a>Resume</a>
+        Resume
       </Link>
       <Link href="/projects">
-        <a>Projects</a>
+        Projects
       </Link>
       <Link href="/uses">
-        <a>Uses</a>
+        Uses
       </Link>
     </div>
   );

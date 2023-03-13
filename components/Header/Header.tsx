@@ -12,22 +12,22 @@ const Header: FC = () => {
   return (
     <div className={styles.container} style={{backgroundColor: darkMode ? "#4c566a" : "#d8dee9"}}>
       <Link href="/">
-        <a>Home</a>
+        Home
       </Link>
       <Link href="/resume">
-        <a>Resume</a>
+        Resume
       </Link>
       <Link href="/projects">
-        <a>Projects</a>
+        Projects
       </Link>
       <Link href="/uses">
-        <a>Uses</a>
+        Uses
       </Link>
 
       <button onClick={() => toggle()}>
         {darkMode ?
-          <Image layout='fixed' src="/sun.svg" alt='activate light mode' width={24} height={24} /> :
-          <Image layout='fixed' src="/moon.svg" alt='activate dark mode' width={24} height={24} />
+          <Image src="/sun.svg" alt='activate light mode' width={24} height={24} /> :
+          <Image src="/moon.svg" alt='activate dark mode' width={24} height={24} />
         }
       </button>
     </div>

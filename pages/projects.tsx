@@ -29,7 +29,7 @@ const Projects: NextPage = () => {
   return (
     <div className={styles.container}>
       <h2>Projects</h2>
-      <p>Here are some of my projects I have done (or are actively working on)! They are all available on my <Link href='https://github.com/Aceto1/'><a>GitHub page</a></Link>. You can also just click them if you&apos;d like to find out more!</p>
+      <p>Here are some of my projects I have done (or are actively working on)! They are all available on my <Link href='https://github.com/Aceto1/'>GitHub page</Link>. You can also just click them if you&apos;d like to find out more!</p>
       {projectItems.map((projectItem, i) => <ProjectItem
         key={i}
         image={projectItem.image}
