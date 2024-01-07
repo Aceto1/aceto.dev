@@ -9,9 +9,15 @@ import styles from '../styles/Resume.module.css';
 const workItems: ResumeDataItem[] = [
   {
     company: 'GreenGate AG',
+    title: 'Fullstack Web Developer',
+    startingDate: new Date(2024, 1),
+    active: true,
+  },
+  {
+    company: 'GreenGate AG',
     title: 'Student Developer',
     startingDate: new Date(2022, 4),
-    active: true,
+    endingDate: new Date(2023, 12)
   },
   {
     company: 'Ibykus AG',
@@ -73,7 +79,7 @@ const Resume: NextPage = () => {
     <div className={styles.container}>
       <h2>Resume</h2>
 
-      <p>This is just a short summary of where I&apos;ve worked and what I&apos;ve done. More can be found on my different social profiles linked above. If you have any questions or are interested in working with me, please <Link href='mailto:lucas@aceto.dev'>contact me</Link>! 💬</p>
+      <p>This is just a short summary of where I&apos;ve worked and what I&apos;ve done. More can be found on my different social profiles linked on this page. If you have any questions or are interested in working with me, please <Link href='mailto:lucas@aceto.dev'>contact me</Link>! 💬</p>
 
       <div className={styles.resumeContainer}>
         <div>
