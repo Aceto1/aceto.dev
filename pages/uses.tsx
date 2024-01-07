@@ -13,7 +13,7 @@ const Uses: NextPage = () => {
           <ul>
             <li>VS Code for most things</li>
             <li>Visual Studio for .NET development</li>
-            <li><a href="https://marktext.app/">MarkText</a> for markdown</li>
+            <li><a href="https://typst.app/">Typst</a> for any typesetting needs</li>
           </ul>
         </li>
         <li>Sourcetree as my git GUI client</li>
@@ -28,8 +28,8 @@ const Uses: NextPage = () => {
             <li>Samsung Odyssey G5 27&quot;</li>
             <li>Philips 242V8A 24&quot; - vertically</li>
           </ul>
-          <li>Keyboard: Keychron K6 ISO, Tealios V2 L&F spring-wapped with 60g SPRiT springs</li>
-          <li>Mouse: Roccat Kone EMP</li>
+          <li>Keyboard: Keychron K6 ISO, Tealios V2 L&F spring-swapped with 60g SPRiT springs</li>
+          <li>Mouse: Logitech MX Vertical</li>
           <li>
             Headphones
             <ul>
